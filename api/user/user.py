@@ -8,7 +8,7 @@ user = Namespace('user')
 class UserManagement(Resource):
     def get(self):
         # GET method 구현 부분
-        return { "nickname": "test" }
+        return {}
 
     def post(self):
         # POST method 구현 부분
