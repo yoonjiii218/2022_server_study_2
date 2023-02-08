@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restx import Api
 from api.user.user import user
 
+
 app = Flask(__name__)
 api = Api(app)
 
